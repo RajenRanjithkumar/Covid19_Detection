@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rootLayout"
+    tools:context=".PatientsListActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:elevation="0dp"
+        android:background="@color/snackBar"
+        android:id="@+id/toolbar_patients_list">
+        <androidx.appcompat.widget.Toolbar
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_scrollFlags="scroll|enterAlways">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Covid Detector"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    />
+
+            </LinearLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <ProgressBar
+        android:id="@+id/progress_barCircle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:indeterminateTint="#F44336"
+
+
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:id="@+id/searchLayout"
+        android:background="@drawable/search_round_corners"
+        android:layout_below="@+id/toolbar_patients_list"
+        >
+
+        <EditText
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textSize="18sp"
+            android:id="@+id/editTextSearch"
+            android:layout_width="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_search"
+            android:background="@null"
+            android:maxLines="1"
+            android:inputType="text"
+            android:textCursorDrawable="@color/black"
+            android:paddingTop="3dp"
+            android:imeOptions="actionDone"
+            style="@style/searchBarEditText"
+            android:drawablePadding="10dp"
+            android:theme="@style/searchBar"
+            android:hint="Search Patients"/>
+
+
+
+    </RelativeLayout>
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/refreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/searchLayout"
+        android:layout_above="@id/bottom_navigator">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layoutAnimation="@anim/layout_animation"
+
+            />
+
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <TextView
+        android:id="@+id/emptyRecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Patients Record is Empty"
+        android:textSize="20dp"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/noRecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Record found"
+        android:textSize="20dp"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"/>
+
+
+    <!--
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="30dp"
+            android:clickable="true"
+            android:src="@drawable/ic_add_icon"
+            app:backgroundTint="#F44336"
+            app:elevation="6dp" /> -->
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigator"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/nav_bar_corners"
+            app:itemIconTint="@drawable/nav_selector"
+            app:itemTextColor="@drawable/nav_selector"
+            android:hapticFeedbackEnabled="true"
+            android:layout_alignParentBottom="true"
+            app:menu="@menu/bottom_nav" />
+
+    </RelativeLayout>
+

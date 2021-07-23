@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "457384200014",
+    "firebase_url": "https://datauploadtofirebasejava-default-rtdb.firebaseio.com",
+    "project_id": "datauploadtofirebasejava",
+    "storage_bucket": "datauploadtofirebasejava.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457384200014:android:7b4e595d8f6237e973001f",
+        "android_client_info": {
+          "package_name": "com.restapi.datauploadtofirebasejava"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "457384200014-odhf417l89s6hkqarjc1957mev399hfh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlmJIiVnEUGNLMPSREglu-Fhmojri-1tw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "457384200014-odhf417l89s6hkqarjc1957mev399hfh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

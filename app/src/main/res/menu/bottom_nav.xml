@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_bar_add"
+        android:icon="@drawable/ic_add_to_list"
+        android:title="Add patients"
+        />
+
+    <item
+        android:id="@+id/nav_bar_list"
+        android:icon="@drawable/ic_patients_list"
+        android:title="Patients List"
+        />
+
+    <item
+        android:id="@+id/nav_bar_info"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="Info"
+        />
+
+
+</menu>

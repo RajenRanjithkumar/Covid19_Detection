@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Covid Detector</string>
+    <string name="patient_s_name">Patient\'s name</string>
+</resources>
