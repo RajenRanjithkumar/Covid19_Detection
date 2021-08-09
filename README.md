@@ -5,12 +5,12 @@
 </br>
 ## Screenshots
 
-| <img src="App screenshots/home.jpg" height=400 width=210 > <P>Homescreen Layout | <img src="App screenshots/crop.jpg"  height=400 width=210> <P>Crop Layout  | <img src="App screenshots/home2.jpg" height=400 width=210> <P>Display progress bar | <img src="App screenshots/output.jpg" height=400 width=210> <P>Model Output Layout 
-| ---------------------------------------------- | -------------------------------------------- | ------------------------------------------- |------------------------------------------- |
+| <img src="App screenshots/Splash.jpg" height=400 width=210 > <P>Splashscreen Layout| <img src="App screenshots/home.jpg" height=400 width=210 > <P>Homescreen Layout | <img src="App screenshots/crop.jpg"  height=400 width=210> <P>Crop Layout  | <img src="App screenshots/home2.jpg" height=400 width=210> <P>Display progress bar  
+| ---------------------------------------------- | -------------------------------------------- | ------------------------------------------- | ------------------------------------------- |
 </br>
 
- | <img src="App screenshots/search1.jpg"  height=400 width=210> <P>List Layout | <img src="App screenshots/search2.jpg" height=400 width=210> <P>Searchable List | <img src="App screenshots/metrics.jpg" height=400 width=210> <P>Model Metrics Layout
-| ---------------------------------------------- | -------------------------------------------- | ------------------------------------------- |
+| <img src="App screenshots/output.jpg" height=400 width=210> <P>Model Output Layout | <img src="App screenshots/search1.jpg"  height=400 width=210> <P>List Layout | <img src="App screenshots/search2.jpg" height=400 width=210> <P>Searchable List | <img src="App screenshots/metrics.jpg" height=400 width=210> <P>Model Metrics Layout
+| ---------------------------------------------- | -------------------------------------------- | ------------------------------------------- |------------------------------------------- |
   
 ## Installation
  
