@@ -9,13 +9,21 @@ An Android application that predicts the presence of COVID-19 from Chest X-rays 
 
 ## Table of Contents :beginner:
 
+* [Manifest](#manifest)
 * [Screenshots](#screenshots)
-  
 * [Installation](#installation)
 * [Roadmap](#roadmap)
 * [Features](#feature)
 * [About](#about)
 * [License](#license)
+
+## Manifest
+
+```
+  - app (folder) ----------------> Contains all the Source code of the App
+  - Covid_CNN_Model (folder) ----> Contains all the Source code of the trained 20 CNN Image classification model
+  - img ----------> Images folder for the readme
+```
 
 
 ## Screenshots
