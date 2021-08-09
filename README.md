@@ -20,9 +20,8 @@ An Android application that predicts the presence of COVID-19 from Chest X-rays 
 ## Manifest
 
 ```
-  - app (folder) ----------------> Contains all the Source code of the App
+  - app (folder) ----------------> Contains all the Source code of the Covid Detector App
   - Covid_CNN_Model (folder) ----> Contains all the Source code of the trained 20 CNN Image classification model
-  - img ----------> Images folder for the readme
 ```
 
 
@@ -51,6 +50,10 @@ An Android application that predicts the presence of COVID-19 from Chest X-rays 
   - To generate the <b>APK</b> from the cloned project,
        1. From the Toolbar, Select <b>Build > Build Bundles(s)/APK(s) > Build APK(s)</b>
        <img src="App screenshots/GenerateApk.jpg"></P>
-      
+ ## Usage
+  - When you open the app on your Android smartphone, App's home screen will be displyed
+  - Enter the <b>Name</b> and <b>Phone number</b> on the respective input fields.
+  - After that, Click on the <b>Pick X-ray</b> to select a chest X-ray image from your local storage.( For testing Download sample chest X-rays from <a href="https://github.com/ranjithbing/Covid19_Detection/tree/master/Covid_CNN_Model/X-ray%20Images%20for%20Testing">here<a>)
+  - 
       
  
