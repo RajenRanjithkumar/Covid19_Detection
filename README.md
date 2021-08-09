@@ -61,5 +61,6 @@ An Android application that predicts the presence of COVID-19 from Chest X-rays 
   
 ## Support
   [![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://www.buymeacoffee.com/ranjith)
+  Contact: [email me](ranjithkumarcena@gmail.com)
       
  
