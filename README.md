@@ -25,4 +25,6 @@
 | ---------------------------------------------- | -------------------------------------------- | ------------------------------------------- |------------------------------------------- |
   
 ## Installation
+  
+  - You can easily download the Covid Detetor app from <a href="https://github.com/ranjithbing/Covid19_Detection/blob/7f3dfefbf2c8ad1cd2daa328810a58136e8eebb0/Apk/Covid%20Detector.apk">here</a>
  
