@@ -26,5 +26,5 @@
   
 ## Installation
   
-  - You can easily download the Covid Detetor app from <a href="https://github.com/ranjithbing/Covid19_Detection/blob/7f3dfefbf2c8ad1cd2daa328810a58136e8eebb0/Apk/Covid%20Detector.apk">here</a>
+  - You can easily download the APK file of Covid Detetor app from <a href="https://github.com/ranjithbing/Covid19_Detection/raw/master/Apk/Covid%20Detector.apk">here</a> and install it on your Android smartphone.
  
