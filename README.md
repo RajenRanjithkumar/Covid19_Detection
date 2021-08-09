@@ -12,7 +12,7 @@ An Android application that predicts the presence of COVID-19 from Chest X-rays 
 * [Manifest](#manifest)
 * [Screenshots](#screenshots)
 * [Installation](#installation)
-* [Roadmap](#roadmap)
+* [Usage](#usage)
 * [Features](#feature)
 * [About](#about)
 * [License](#license)
@@ -51,9 +51,12 @@ An Android application that predicts the presence of COVID-19 from Chest X-rays 
        1. From the Toolbar, Select <b>Build > Build Bundles(s)/APK(s) > Build APK(s)</b>
        <img src="App screenshots/GenerateApk.jpg"></P>
  ## Usage
-  - When you open the app on your Android smartphone, App's home screen will be displyed
+  - For testing, Download the sample chest X-rays images from <a href="https://github.com/ranjithbing/Covid19_Detection/tree/master/Covid_CNN_Model/X-ray%20Images%20for%20Testing">here<a> first.
+  - Then open the app on your Android smartphone where App's home screen will be displyed by default.
   - Enter the <b>Name</b> and <b>Phone number</b> on the respective input fields.
-  - After that, Click on the <b>Pick X-ray</b> to select a chest X-ray image from your local storage.( For testing Download sample chest X-rays from <a href="https://github.com/ranjithbing/Covid19_Detection/tree/master/Covid_CNN_Model/X-ray%20Images%20for%20Testing">here<a>)
-  - 
+  - After that, Click on the *__<b>Pick X-ray</b>__* button to select a chest X-ray image from your smartphone's local storage. 
+  - You can crop the selected selected X-ray image as per you need.
+  - Finally, Click on the *__<b>Predict</b>__* button to get the Covid prediction from the trained CNN model.
+  - For Navigation, You can use the *__<b>Bottom Navigation Bar</b>__* to navigate throughout the app
       
  
