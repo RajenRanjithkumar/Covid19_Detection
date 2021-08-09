@@ -33,4 +33,5 @@ An Android application that predicts the presence of COVID-19 from Chest X-rays 
        1. Download and install <a href="https://developer.android.com/studio">Android Studio</a>
        2. From the toolbar, Select <b>File > New > Project Version Control</b> 
        3. Paste the repositorie's url (https://github.com/ranjithbing/Covid19_Detection.git) under the URL input field and click on the <b>Clone</b> button to clone the project successfully.  
+        <img src="App screenshots/Splash.jpg" height=400 width=210 > 
  
