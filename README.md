@@ -7,9 +7,8 @@
 ## Table of Contents :beginner:
 
 * [Screenshots](#screenshots)
-   * [Setting Up Android Studio for new project](#setting-android-studio)
-   * [Integrating Sample App](sample-app)
-* [Announcements](#announcements)
+  
+* [Installation](#Installation)
 * [Roadmap](#roadmap)
 * [Features](#feature)
 * [About](#about)
