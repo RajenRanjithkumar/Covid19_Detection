@@ -73,7 +73,6 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
                     android:text="Ranjithkumar Rajendran"
-                    android:textColor="@color/black"
                     android:textSize="18sp" />
 
             </LinearLayout>
@@ -92,7 +91,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:text="Trained Covid CNN model's metrics"
-                    android:textColor="@color/black"
+
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -101,7 +100,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:text="Training Accuracy"
-                    android:textColor="@color/black"
+
                     android:textSize="15sp" />
 
                 <RelativeLayout
@@ -142,7 +141,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:text="Validation Accuracy"
-                    android:textColor="@color/black"
+
                     android:textSize="15sp" />
 
                 <RelativeLayout
@@ -183,7 +182,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:text="Training Loss"
-                    android:textColor="@color/black"
+
                     android:textSize="15sp" />
 
                 <RelativeLayout
@@ -204,7 +203,7 @@
                         android:layout_centerVertical="true"
                         android:layout_toStartOf="@+id/imageStat3"
                         android:rotation="-90"
-                        android:text="Accuracy"
+                        android:text="Loss %"
                         android:textSize="10sp"
                         tools:ignore="SmallSp" />
 
@@ -224,7 +223,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:text="Validation Loss"
-                    android:textColor="@color/black"
+
                     android:textSize="15sp" />
 
                 <RelativeLayout
@@ -246,7 +245,7 @@
                         android:layout_centerVertical="true"
                         android:layout_toStartOf="@+id/imageStat4"
                         android:rotation="-90"
-                        android:text="Accuracy"
+                        android:text="Loss %"
                         android:textSize="10sp"
                         tools:ignore="SmallSp" />
 
