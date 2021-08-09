@@ -57,6 +57,9 @@ An Android application that predicts the presence of COVID-19 from Chest X-rays 
   - After that, Click on the *__<b>Pick X-ray</b>__* button to select a chest X-ray image from your smartphone's local storage. 
   - You can crop the selected selected X-ray image as per you need.
   - Finally, Click on the *__<b>Predict</b>__* button to get the Covid prediction from the trained CNN model.
-  - For Navigation, You can use the *__<b>Bottom Navigation Bar</b>__* to navigate throughout the app
+  - For Navigation, You can use the app's *__<b>Bottom Navigation Bar</b>__* to navigate throughout the app.
+  
+## Support
+  [![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://www.buymeacoffee.com/ranjith)
       
  
