@@ -13,7 +13,7 @@ An Android application that predicts the presence of COVID-19 from Chest X-rays 
 * [Screenshots](#screenshots)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Features](#feature)
+* [Road-map](#Road-map)
 * [About](#about)
 * [License](#license)
 
@@ -61,8 +61,15 @@ An Android application that predicts the presence of COVID-19 from Chest X-rays 
   
 ## Support
   <a href="https://www.buymeacoffee.com/ranjith">
-  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"></a>
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height=100 width=350></a>
   
-  Contact: [Email me](mailto:ranjithkumarcena@gmail.com)
-      
+  Contact: [Email me](mailto:ranjithkumarcena@gmail.com) for any other queries.
+
+## Road-map
+   In future,
+   - The Integrated CNN classifier will be trained with more Covid chest X-ray datasets to make the app even more reliable.
+   - User <b>Login/Sign_up</b> layout with 2 step-verification will be developed for the app, so that users can have their own set of patients record.
+   - Sort feature will be developed for the patient's list.
+   - Contextual Menu for deleting multiple patient's record at once will be developed.
+   - Local Imaging caching feature will be implemented to load the patient's X-ray images quicker.
  
