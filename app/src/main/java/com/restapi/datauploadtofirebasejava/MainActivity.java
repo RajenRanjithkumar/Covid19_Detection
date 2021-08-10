@@ -385,7 +385,7 @@ public class MainActivity extends AppCompatActivity {
 
                                     userDetails = upload;
 
-                                    sendSMS(upload);
+                                    //sendSMS(upload);
 
                                     //intent to details activity
                                     upload.setImageUrl(mImageUri.toString());

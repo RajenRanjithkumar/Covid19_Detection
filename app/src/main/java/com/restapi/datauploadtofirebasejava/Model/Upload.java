@@ -10,9 +10,6 @@ public class Upload implements Parcelable {
     private String mImageUrl;
     private String mPhoneNo;
     private String covidResult;
-
-
-
     private String mDate;
 
 
