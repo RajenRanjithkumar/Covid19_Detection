@@ -93,6 +93,6 @@ An Android application that predicts the presence of COVID-19 from Chest X-rays 
    limitations under the License.
 ```
    See [`LICENSE`](LICENSE) for the full license.
-## :clipboard: Project Status 
+##  Project Status :clipboard:
   - Currently, I am working on some additional features for the App.
   - You're always welcome to contribute to this project.  
