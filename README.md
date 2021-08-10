@@ -14,10 +14,10 @@ An Android application that predicts the presence of COVID-19 from Chest X-rays 
 * [Installation](#installation)
 * [Usage](#usage)
 * [Road-map](#Road-map)
-[Project Status](#ProjectStatus)
+* [Project Status](#ProjectStatus)
 
 
-## :gear: Manifest
+## Manifest
 
 ```
    app (folder) ----------------> Contains all the Source code of the Covid Detector App
@@ -25,7 +25,7 @@ An Android application that predicts the presence of COVID-19 from Chest X-rays 
 ```
 
 
-## :camera_flash: Screenshots 
+## Screenshots 
 
 | <img src="App screenshots/Splash.jpg" height=400 width=210 > <P>Splashscreen Layout| <img src="App screenshots/home.jpg" height=400 width=210 > <P>Homescreen Layout | <img src="App screenshots/crop.jpg"  height=400 width=210> <P>Crop Layout  | <img src="App screenshots/home2.jpg" height=400 width=210> <P>Display progress bar  
 | ---------------------------------------------- | -------------------------------------------- | ------------------------------------------- | ------------------------------------------- |
@@ -34,7 +34,7 @@ An Android application that predicts the presence of COVID-19 from Chest X-rays 
 | <img src="App screenshots/output.jpg" height=400 width=210> <P>Model Output Layout | <img src="App screenshots/search1.jpg"  height=400 width=210> <P>Patients List Layout | <img src="App screenshots/search2.jpg" height=400 width=210> <P>Searchable List | <img src="App screenshots/metrics.jpg" height=400 width=210> <P>Model Metrics Layout
 | ---------------------------------------------- | -------------------------------------------- | ------------------------------------------- |------------------------------------------- |
   
-## :pencil: Installation 
+## Installation 
   
   - <b>For easy APK installation</b>, you can download the APK file of Covid Detetor app from <a href="https://github.com/ranjithbing/Covid19_Detection/raw/master/Apk/Covid%20Detector.apk"><b>here</b></a> and install it on your Android smartphone.<br>
   or
@@ -51,7 +51,7 @@ An Android application that predicts the presence of COVID-19 from Chest X-rays 
   - To generate the <b>APK</b> from the cloned project,
        1. Select <b>Build > Build Bundles(s)/APK(s) > Build APK(s)</b> from the Android Studio's Toolbar
        <img src="App screenshots/GenerateApk.jpg"></P>
- ## :zap: Usage 
+ ## Usage 
   - For testing the app, Download the sample chest X-rays images from <a href="https://github.com/ranjithbing/Covid19_Detection/tree/master/Covid_CNN_Model/X-ray%20Images%20for%20Testing"><b>here</b><a> first.
   - <a href="https://github.com/ranjithbing/Covid19_Detection/raw/master/Apk/Covid%20Detector.apk"><b>Click here</b></a> to Download the App.
   - After Installing it, open the app on your Android smartphone where App's home screen will be displyed by default.
@@ -62,20 +62,20 @@ An Android application that predicts the presence of COVID-19 from Chest X-rays 
   - For Navigation, You can use the app's *__<b>Bottom Navigation Bar</b>__* to navigate throughout the app.
   - You can also use the App's <b>:mag:Search Bar</b> to locate your record.
   
-## :coffee: Support 
+## Support 
   <a href="https://www.buymeacoffee.com/ranjith">
   <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height=100 width=350></a>
   
   Contact: :e-mail: [Email me](mailto:ranjithkumarcena@gmail.com) for any other queries.
 
-## :dart: Road-map 
+## Road-map 
    <b>In future</b>,
    - The Integrated CNN classifier will be trained with more Covid chest X-ray datasets to make the app even more reliable.
    - User <b>Login/Sign_up</b> layout with 2 step-verification will be developed for the app, so that users can have their own set of patients record.
    - Sort feature will be developed for the patient's list.
    - Contextual Menu for deleting multiple patient's record at once will be developed.
    - Local Imaging caching feature will be implemented to load the patient's X-ray images quicker.
-## :scroll: License 
+## License 
   This project is licensed under the [Apache Software License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
 ```
    Copyright 2021 Ranjithkumar Rajendran
