@@ -12,7 +12,7 @@ An Android application that predicts the presence of COVID-19 from Chest X-rays 
 * [Manifest](#manifest)
 * [Screenshots](#screenshots)
 * [Installation](#installation)
-* [Roadmap](#roadmap)
+* [Usage](#usage)
 * [Features](#feature)
 * [About](#about)
 * [License](#license)
@@ -20,9 +20,8 @@ An Android application that predicts the presence of COVID-19 from Chest X-rays 
 ## Manifest
 
 ```
-  - app (folder) ----------------> Contains all the Source code of the App
+  - app (folder) ----------------> Contains all the Source code of the Covid Detector App
   - Covid_CNN_Model (folder) ----> Contains all the Source code of the trained 20 CNN Image classification model
-  - img ----------> Images folder for the readme
 ```
 
 
@@ -51,6 +50,19 @@ An Android application that predicts the presence of COVID-19 from Chest X-rays 
   - To generate the <b>APK</b> from the cloned project,
        1. From the Toolbar, Select <b>Build > Build Bundles(s)/APK(s) > Build APK(s)</b>
        <img src="App screenshots/GenerateApk.jpg"></P>
-      
+ ## Usage
+  - For testing, Download the sample chest X-rays images from <a href="https://github.com/ranjithbing/Covid19_Detection/tree/master/Covid_CNN_Model/X-ray%20Images%20for%20Testing">here<a> first.
+  - Then open the app on your Android smartphone where App's home screen will be displyed by default.
+  - Enter the <b>Name</b> and <b>Phone number</b> on the respective input fields.
+  - After that, Click on the *__<b>Pick X-ray</b>__* button to select a chest X-ray image from your smartphone's local storage. 
+  - You can crop the selected selected X-ray image as per you need.
+  - Finally, Click on the *__<b>Predict</b>__* button to get the Covid prediction from the trained CNN model.
+  - For Navigation, You can use the app's *__<b>Bottom Navigation Bar</b>__* to navigate throughout the app.
+  
+## Support
+  [![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://www.buymeacoffee.com/ranjith)<br>
+  
+  
+  Contact: [Email me](mailto:ranjithkumarcena@gmail.com)
       
  
