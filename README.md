@@ -9,7 +9,7 @@ An Android application that predicts the presence of COVID-19 from Chest X-rays 
 
 ## Table of Contents :beginner:
 
- [:gear: Manifest](#manifest)
+ [:gear: Manifest](#Manifest)
 * [Screenshots](#screenshots)
 * [Installation](#installation)
 * [Usage](#usage)
