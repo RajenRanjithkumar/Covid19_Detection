@@ -2,7 +2,7 @@
 <P align="justify">
 An Android application that predicts the presence of COVID-19 from Chest X-rays using deep convolution neural networks. A complex well-trained 20 layer CNN model that classifies Covid X-rays from the normal ones is integrated into the App. The developed app takes Name, phone number and Chest X-Rays image as inputs. Before predicting an output, the App checks if the given image is a chest X-ray or not, and a lite weight CNN model for that is also integrated into the App. This App also uses the firebase database as a backend to store and fetch all the users details and the CNN model’s prediction in real-time. Once the model generates the prediction (Covid/Normal), the App send an SMS along with the model result to the user’s registered phone number.</P></br>
 
-![version](https://img.shields.io/badge/Version-v1.1-orange) ![platform](https://img.shields.io/badge/Platform-Android-brightgreen) ![language](https://img.shields.io/badge/Language-java-yellow) ![open_source](https://camo.githubusercontent.com/97d4586afa582b2dcec2fa8ed7c84d02977a21c2dd1578ade6d48ed82296eb10/68747470733a2f2f6261646765732e66726170736f66742e636f6d2f6f732f76312f6f70656e2d736f757263652e7376673f763d313033) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)<br>
+[![version](https://img.shields.io/badge/version-v1.1%20-orange.svg)](https://github.com/ranjithbing/Covid19_Detection/releases/tag/v1.1) [![platform](https://img.shields.io/badge/Platform-Android-brightgreen)](https://www.android.com/intl/en_in/) ![language](https://img.shields.io/badge/Language-java-yellow) ![open_source](https://camo.githubusercontent.com/97d4586afa582b2dcec2fa8ed7c84d02977a21c2dd1578ade6d48ed82296eb10/68747470733a2f2f6261646765732e66726170736f66742e636f6d2f6f732f76312f6f70656e2d736f757263652e7376673f763d313033) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)<br>
 [![Twitter Badge](https://img.shields.io/badge/-@ranjith_bing-1ca0f1?style=flat&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/ranjith_bing)](https://twitter.com/ranjith_bing)
 [![Linkedin Badge](https://img.shields.io/badge/-Ranjithkumar-Rajendran?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ranjithkumar-rajendran-565402182/)](https://www.linkedin.com/in/ranjithkumar-rajendran-565402182/)
 </br>
@@ -69,14 +69,14 @@ An Android application that predicts the presence of COVID-19 from Chest X-rays 
   Contact: :e-mail: [Email me](mailto:ranjithkumarcena@gmail.com) for any other queries.
 
 ## :dart: Road-map 
-   In future,
+   <b>In future</b>,
    - The Integrated CNN classifier will be trained with more Covid chest X-ray datasets to make the app even more reliable.
    - User <b>Login/Sign_up</b> layout with 2 step-verification will be developed for the app, so that users can have their own set of patients record.
    - Sort feature will be developed for the patient's list.
    - Contextual Menu for deleting multiple patient's record at once will be developed.
    - Local Imaging caching feature will be implemented to load the patient's X-ray images quicker.
 ## :scroll: License 
-  This project is covered by [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]( https://github.com/ranjithbing/Covid19_Detection/blob/master/LICENSE)
+  This project is licensed under the [Apache Software License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
 ```
    Copyright 2021 Ranjithkumar Rajendran
 
@@ -92,6 +92,7 @@ An Android application that predicts the presence of COVID-19 from Chest X-rays 
    See the License for the specific language governing permissions and
    limitations under the License.
 ```
-## Project Status 
+   See [`LICENSE`](LICENSE) for the full license.
+## :clipboard: Project Status 
   - Currently, I am working on some additional features for the App.
   - You're always welcome to contribute to this project.  
