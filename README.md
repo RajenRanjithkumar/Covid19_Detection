@@ -14,18 +14,18 @@ An Android application that predicts the presence of COVID-19 from Chest X-rays 
 * [Installation](#installation)
 * [Usage](#usage)
 * [Road-map](#Road-map)
-* [About](#about)
-* [License](#license)
+* [Project Status](#ProjectStatus)
 
-## Manifest
+
+## :gear: Manifest
 
 ```
-  - app (folder) ----------------> Contains all the Source code of the Covid Detector App
-  - Covid_CNN_Model (folder) ----> Contains all the Source code of the trained 20 CNN Image classification model
+   app (folder) ----------------> Contains all the Source code of the Covid Detector App
+   Covid_CNN_Model (folder) ----> Contains all the Source code of the trained 20 CNN Image classification model
 ```
 
 
-## Screenshots
+## :camera_flash: Screenshots 
 
 | <img src="App screenshots/Splash.jpg" height=400 width=210 > <P>Splashscreen Layout| <img src="App screenshots/home.jpg" height=400 width=210 > <P>Homescreen Layout | <img src="App screenshots/crop.jpg"  height=400 width=210> <P>Crop Layout  | <img src="App screenshots/home2.jpg" height=400 width=210> <P>Display progress bar  
 | ---------------------------------------------- | -------------------------------------------- | ------------------------------------------- | ------------------------------------------- |
@@ -34,42 +34,64 @@ An Android application that predicts the presence of COVID-19 from Chest X-rays 
 | <img src="App screenshots/output.jpg" height=400 width=210> <P>Model Output Layout | <img src="App screenshots/search1.jpg"  height=400 width=210> <P>Patients List Layout | <img src="App screenshots/search2.jpg" height=400 width=210> <P>Searchable List | <img src="App screenshots/metrics.jpg" height=400 width=210> <P>Model Metrics Layout
 | ---------------------------------------------- | -------------------------------------------- | ------------------------------------------- |------------------------------------------- |
   
-## Installation
+## :pencil: Installation 
   
-  - <b>For easy APK installation</b>, you can download the APK file of Covid Detetor app from <a href="https://github.com/ranjithbing/Covid19_Detection/raw/master/Apk/Covid%20Detector.apk">here</a> and install it on your Android smartphone.<br>
+  - <b>For easy APK installation</b>, you can download the APK file of Covid Detetor app from <a href="https://github.com/ranjithbing/Covid19_Detection/raw/master/Apk/Covid%20Detector.apk"><b>here</b></a> and install it on your Android smartphone.<br>
   or
   - <b>To Clone the project</b>,
-       1. Download and install <a href="https://developer.android.com/studio">Android Studio</a>
-       2. From the Toolbar, Select <b>File > New > Project Version Control</b>
+       1. Download and install <a href="https://developer.android.com/studio">Android Studio</a>.
+       2. After installing, from the Android Studio's Toolbar, Select <b>File > New > Project Version Control</b>
         <P align="center">
         <img src="App screenshots/clone1.jpg" ></P>
        3. Paste the repositorie's url (https://github.com/ranjithbing/Covid19_Detection.git) under the URL input field and click on the <b>Clone</b> button to clone the project successfully.<br>
         <P align="center">
         <img src="App screenshots/clone2.jpg"></P>
-       4. If you want to change the projects Package names, You can check how to do that <a href="https://stackoverflow.com/questions/16804093/rename-package-in-android-studio">here</a>.
+       4. If you want to change the projects Package names, You can check <a href="https://stackoverflow.com/questions/16804093/rename-package-in-android-studio"><b>here</b></a> on how to do that (Optional).
+       5. If you want to change the database with your own Firebase account, You can check <a href="https://firebase.google.com/docs/android/setup"><b>here</b></a> on how to do that     (Optional). <br>
   - To generate the <b>APK</b> from the cloned project,
-       1. From the Toolbar, Select <b>Build > Build Bundles(s)/APK(s) > Build APK(s)</b>
+       1. Select <b>Build > Build Bundles(s)/APK(s) > Build APK(s)</b> from the Android Studio's Toolbar
        <img src="App screenshots/GenerateApk.jpg"></P>
- ## Usage
-  - For testing, Download the sample chest X-rays images from <a href="https://github.com/ranjithbing/Covid19_Detection/tree/master/Covid_CNN_Model/X-ray%20Images%20for%20Testing">here<a> first.
-  - Then open the app on your Android smartphone where App's home screen will be displyed by default.
+ ## :zap: Usage 
+  - For testing the app, Download the sample chest X-rays images from <a href="https://github.com/ranjithbing/Covid19_Detection/tree/master/Covid_CNN_Model/X-ray%20Images%20for%20Testing"><b>here</b><a> first.
+  - <a href="https://github.com/ranjithbing/Covid19_Detection/raw/master/Apk/Covid%20Detector.apk"><b>Click here</b></a> to Download the App.
+  - After Installing it, open the app on your Android smartphone where App's home screen will be displyed by default.
   - Enter the <b>Name</b> and <b>Phone number</b> on the respective input fields.
   - After that, Click on the *__<b>Pick X-ray</b>__* button to select a chest X-ray image from your smartphone's local storage. 
   - You can crop the selected selected X-ray image as per you need.
-  - Finally, Click on the *__<b>Predict</b>__* button to get the Covid prediction from the trained CNN model.
+  - Finally, Click on the *__<b>Predict</b>__* button to get the prediction from the trained CNN Covid19 model.
   - For Navigation, You can use the app's *__<b>Bottom Navigation Bar</b>__* to navigate throughout the app.
+  - You can also use the App's <b>:mag:Search Bar</b> to locate your record.
   
-## Support
+## :coffee: Support 
   <a href="https://www.buymeacoffee.com/ranjith">
   <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height=100 width=350></a>
   
-  Contact: [Email me](mailto:ranjithkumarcena@gmail.com) for any other queries.
+  Contact: :e-mail: [Email me](mailto:ranjithkumarcena@gmail.com) for any other queries.
 
-## Road-map
+## :dart: Road-map 
    In future,
    - The Integrated CNN classifier will be trained with more Covid chest X-ray datasets to make the app even more reliable.
    - User <b>Login/Sign_up</b> layout with 2 step-verification will be developed for the app, so that users can have their own set of patients record.
    - Sort feature will be developed for the patient's list.
    - Contextual Menu for deleting multiple patient's record at once will be developed.
    - Local Imaging caching feature will be implemented to load the patient's X-ray images quicker.
- 
+## :scroll: License 
+  This project is covered by [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]( https://github.com/ranjithbing/Covid19_Detection/blob/master/LICENSE)
+```
+   Copyright 2021 Ranjithkumar Rajendran
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+```
+## Project Status 
+  - Currently, I am working on some additional features for the App.
+  - You're always welcome to contribute to this project.  
